@@ -12,6 +12,8 @@ SRC_URI += "file://photonx-standard.scc \
             file://photonx-user-config.cfg \
             file://photonx-user-patches.scc \
             file://photonx-user-features.scc \
+            file://photonx-network-config.cfg \
+            file://photonx-mmc-config.cfg \
            "
 
 # uncomment and replace these SRCREVs with the real commit ids once you've had
