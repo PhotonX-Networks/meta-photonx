@@ -1,0 +1,9 @@
+kconf hardware photonx.cfg
+
+include features/serial/8250.scc
+
+include cfg/usb-mass-storage.scc
+include features/power/intel.scc
+
+kconf hardware photonx-user-config.cfg
+include photonx-user-patches.scc
